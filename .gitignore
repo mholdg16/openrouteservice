@@ -32,3 +32,5 @@ nohup.out
 build/
 logs/
 cgiar_cache/
+
+*.osm.pbf

@@ -4,7 +4,7 @@ ENV MAVEN_OPTS="-Dmaven.repo.local=.m2/repository -Dorg.slf4j.simpleLogger.log.o
 ENV MAVEN_CLI_OPTS="--batch-mode --errors --fail-at-end --show-version -DinstallAtEnd=true -DdeployAtEnd=true"
 
 ARG APP_CONFIG=./openrouteservice/src/main/resources/app.config.sample
-ARG OSM_FILE=./openrouteservice/src/main/files/heidelberg.osm.gz
+ARG OSM_FILE=./docker/data/germany-filtered.osm.pbf
 
 WORKDIR /ors-core
 
